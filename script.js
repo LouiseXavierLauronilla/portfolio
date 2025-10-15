@@ -4,3 +4,4 @@ function changeColor() {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     box.style.backgroundColor = randomColor;
 }
+document.getElementById("changeColorBtn").addEventListener("click", changeColor);
